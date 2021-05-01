@@ -1,0 +1,95 @@
+'sequence-diagram
+@startuml
+!include colorset/colorset13.txt
+
+"Jane Doe" -> "Richard Roe" : hello
+activate "Richard Roe"
+"Richard Roe" -> "Richard Roe" : some action
+return bye
+@enduml
+
+'use-case-diagram
+@startuml
+!include colorset/colorset13.txt
+
+left to right direction
+actor "Jane Doe" as actor01
+rectangle Github {
+  usecase "Clone" as usecase01
+  usecase "Fork " as usecase02
+}
+actor01 --> usecase01
+actor01 --> usecase02
+@enduml
+
+'class-diagram
+@startuml
+!include colorset/colorset13.txt
+
+Object <|-- ArrayList
+
+Object : equals()
+ArrayList : Object[] elementData
+ArrayList : size()
+@enduml
+
+'activity-diagram
+@startuml
+!include colorset/colorset13.txt
+
+start
+if (Is there a mode?) then (yes)
+  :vi       ;
+else (no)
+  :emacs;
+endif
+stop
+@enduml
+
+'component-diagram
+@startuml
+!include colorset/colorset13.txt
+
+interface "Data Access" as DA
+
+DA - [First Component]
+[First Component] ..> HTTP : use
+
+note left of HTTP : Web Service only
+@enduml
+
+'deployment-diagram
+@startuml
+!include colorset/colorset13.txt
+
+actor "Jane Doe" as actor01
+actor "Richard Roe" as actor02
+actor01 <-0-> actor02
+ 
+component component01
+component component02
+component01 *-0)-+ component02
+@enduml
+
+'state-diagram
+@startuml
+!include colorset/colorset13.txt
+
+[*] --> State1
+State1 --> [*]
+State1 : entry/some action
+State1 : exit/some action
+
+State1 -> State2
+State2 --> [*]
+@enduml
+
+'colors
+@startuml
+colors
+@enduml
+
+'help
+@startuml
+help skinparams
+@enduml
