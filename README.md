@@ -1,5 +1,4 @@
 # PlantUML-ColorSet-Example
-PlantUML用の色セットの例です。<br>
 <img src="https://github.com/Kazuhito00/PlantUML-ColorSet-Example/blob/main/images/colorset05/sample.png?raw=true" height="150px">
 <img src="https://github.com/Kazuhito00/PlantUML-ColorSet-Example/blob/main/images/colorset02/sample-1.png?raw=true" height="150px">
 <img src="https://github.com/Kazuhito00/PlantUML-ColorSet-Example/blob/main/images/colorset08/sample-2.png?raw=true" height="150px">
