@@ -1,4 +1,4 @@
-'ThinkPad
+'
 
 skinparam dpi 100
 
