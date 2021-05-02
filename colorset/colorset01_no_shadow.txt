@@ -1,6 +1,0 @@
-'Monochrome
-
-skinparam dpi 100
-
-skinparam monochrome true
-skinparam shadowing false

@@ -1,6 +1,6 @@
 'sequence-diagram
 @startuml
-!include colorset/colorset13.txt
+!include colorset/colorset00.txt
 
 "Jane Doe" -> "Richard Roe" : hello
 activate "Richard Roe"
@@ -10,7 +10,7 @@ return bye
 
 'use-case-diagram
 @startuml
-!include colorset/colorset13.txt
+!include colorset/colorset00.txt
 
 left to right direction
 actor "Jane Doe" as actor01
@@ -24,7 +24,7 @@ actor01 --> usecase02
 
 'class-diagram
 @startuml
-!include colorset/colorset13.txt
+!include colorset/colorset00.txt
 
 Object <|-- ArrayList
 
@@ -35,7 +35,7 @@ ArrayList : size()
 
 'activity-diagram
 @startuml
-!include colorset/colorset13.txt
+!include colorset/colorset00.txt
 
 start
 if (Is there a mode?) then (yes)
@@ -48,7 +48,7 @@ stop
 
 'component-diagram
 @startuml
-!include colorset/colorset13.txt
+!include colorset/colorset00.txt
 
 interface "Data Access" as DA
 
@@ -60,7 +60,7 @@ note left of HTTP : Web Service only
 
 'deployment-diagram
 @startuml
-!include colorset/colorset13.txt
+!include colorset/colorset00.txt
 
 actor "Jane Doe" as actor01
 actor "Richard Roe" as actor02
@@ -73,7 +73,7 @@ component01 *-0)-+ component02
 
 'state-diagram
 @startuml
-!include colorset/colorset13.txt
+!include colorset/colorset00.txt
 
 [*] --> State1
 State1 --> [*]
