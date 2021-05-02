@@ -24,7 +24,7 @@ PlantUML用の色セットの例です。<br>
 GitHub上のファイルをネットワーク経由でも読み込み可能です。<br>
 ```
 @startuml
-!includeurl https://raw.githubusercontent.com/Kazuhito00/PlantUML-ColorSet-Example/main/colorset/colorset01.txt
+!include https://raw.githubusercontent.com/Kazuhito00/PlantUML-ColorSet-Example/main/colorset/colorset01.txt
 
 @enduml
 ```
