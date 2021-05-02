@@ -21,6 +21,13 @@ PlantUML用の色セットの例です。<br>
 
 @enduml
 ```
+GitHub上のファイルをネットワーク経由でも読み込み可能です。<br>
+```
+@startuml
+!include https://raw.githubusercontent.com/Kazuhito00/PlantUML-ColorSet-Example/main/colorset/colorset01.txt
+
+@enduml
+```
 
 # Contents
 <table>
